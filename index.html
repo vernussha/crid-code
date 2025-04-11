@@ -69,8 +69,10 @@
             const errorMsg = document.getElementById("errorMessage");
             if (input === "секрет") {
                errorMsg.textContent = "КОД ПРИНЯТ. ОБРАТИТЕСЬ К ВЕДУШЕМУ"
+                errorMsg.style.color = "limegreen";
             } else {
                 errorMsg.textContent = "ОТКАЗАНО В ДОСТУПЕ";
+                errorMsg.style.color = "red";
             }
         }
     </script>
